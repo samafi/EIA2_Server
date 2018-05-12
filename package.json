@@ -2,7 +2,7 @@
 	"name" : "Servertest",
 	"version" : "1.0.0",
 	"description" : "First Server Test",
-	"author" : "Jirka",
+	"author" : "Sarah Fink",
 	"main" : "Server.js",
 	"scripts" : {
 		"start" : "node Server.js"
