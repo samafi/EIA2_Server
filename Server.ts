@@ -32,7 +32,7 @@ namespace Server {
         _response.setHeader("content-type", "text/html; charset=utf-8");
         _response.setHeader("Access-Control-Allow-Origin", "*");
 
-        _response.write("Ich habe dich gehört Marcolein<br/>");
+        _response.write("Ich habe dich gehört Marco<br/>");
         _response.write("Das Ergebnis ist: " + (a + b));
 
         _response.end();
