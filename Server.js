@@ -2,8 +2,8 @@
 const Http = require("http");
 const Url = require("url");
 // IMPORT HAT BEI MIR NICHT FUNKTIONIERT
-var Server;
-(function (Server) {
+var Aufgabe06;
+(function (Aufgabe06) {
     // Homogenes assoziatives Array zur Speicherung einer Person unter der Matrikelnummer
     let studiHomoAssoc = {};
     let port = process.env.PORT;
@@ -81,5 +81,5 @@ var Server;
     function error() {
         alert("Error");
     }
-})(Server || (Server = {}));
+})(Aufgabe06 || (Aufgabe06 = {}));
 //# sourceMappingURL=Server.js.map

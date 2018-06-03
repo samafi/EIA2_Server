@@ -2,7 +2,7 @@ import * as Http from "http";
 import * as Url from "url";
 
 // IMPORT HAT BEI MIR NICHT FUNKTIONIERT
-namespace Server {
+namespace Aufgabe06 {
 
     interface AssocStringString {
         [key: string]: string;
