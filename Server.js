@@ -1,7 +1,6 @@
 "use strict";
 const Http = require("http");
 const Url = require("url");
-// IMPORT HAT BEI MIR NICHT FUNKTIONIERT
 var Server;
 (function (Server) {
     // Homogenes assoziatives Array zur Speicherung einer Person unter der Matrikelnummer
