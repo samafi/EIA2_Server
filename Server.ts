@@ -2,7 +2,7 @@ import * as Http from "http";
 import * as Url from "url";
 
 // IMPORT HAT BEI MIR NICHT FUNKTIONIERT
-namespace Aufgabe06 {
+namespace Server {
 
     interface AssocStringString {
         [key: string]: string;
@@ -37,7 +37,7 @@ namespace Aufgabe06 {
     server.listen(port);
 
     function handleRequest(_request: Http.IncomingMessage, _response: Http.ServerResponse): void {
-        console.log("Ich höre Stimmen!");
+        console.log("hallo!");
         let query: AssocStringString = Url.parse(_request.url, true).query;
         console.log(query["command"]);
         if (query["command"] ) {
