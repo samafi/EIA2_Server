@@ -5,7 +5,7 @@ let databaseURL = "mongodb://localhost:27017";
 let databaseName = "Test";
 let db;
 let students;
-// wenn wir auf heroku sind...
+// wenn wir auf heroku sind... 
 if (process.env.NODE_ENV == "production") {
     //    databaseURL = "mongodb://username:password@hostname:port/database";
     databaseURL = "mongodb://user1:passwort1@ds247270.mlab.com:47270/eiadatenbank";
